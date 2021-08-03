@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 75px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .head-icon {
+    order: 1;
+    margin-top: 10px;
   }
-  to {
-    transform: rotate(360deg);
+  h3 {
+    font-size: 1.75rem;
+    font-family: cursive;
+    font-weight: bold;
   }
-}
+  h2 {
+    font-size: 0.65rem;
+    color: grey;
+  }
+  .logos {
+    margin-left: 50%;
+    align-content: center;
+    margin-top: 10px;
+  }
+  .rss {
+    margin-left: 5px;
+  }
+  
+  h2 {
+    font-size: 3rem;
+    order: 1;
+  }
+  h6 {
+    color: grey;
+    order: 1;
+  }
+  #recipe-title {
+    display: flex;
+    flex-direction: row;
+  }
+  #print-icon {
+    order: 2;
+    margin-left: 60%;
+    align-self: flex-end;
+    color: grey;
+  }
+  
+  #site-title {
+    order: 2;
+  }
+  #sub-head {
+    order: 2;
+  }
+  p {
+    font-size: 1.2rem;
+    text-indent: 5%;
+    margin: 10px;
+    color: grey;
+  }
+  
+  .border {
+    background-image: url('./line-img.png');
+    background-repeat: repeat;
+    margin-top: 10px;
+    height: 12px;
+    width: 100%;
+  }
+   .list-div{
+    background-image: url("./list-bg.png");
+    height: 300px;
+    font-size: .85rem;
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+
+  }
+  #ingredients-text1 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+  #ingredients-text2 {
+    flex-direction: column;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 40px;
+  }
+  label {
+    margin-bottom: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(172, 143, 105);
+  }
+  
+  #author-bio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 75px;
+  }
+  h4 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+  a {
+    font-size: 1.25rem;
+    background-color: burlywood;
+    height: 40px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+  }
